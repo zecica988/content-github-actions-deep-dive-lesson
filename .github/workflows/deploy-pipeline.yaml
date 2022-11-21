@@ -55,6 +55,6 @@ jobs:
         with:
           tag_name: ${{ github.run_number }}
           release_name: Release from ${{ github.run_number }}
-          body: New release for ${{ gitub.sha }} 
+          body: New release for ${{ github.sha }} 
           draft: false
           prerelease: false
